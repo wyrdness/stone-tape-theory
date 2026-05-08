@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/stone-tape-theory",
     "maintainers": [
       {
@@ -16,72 +16,112 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "stone-tape-theory",
     "name": "Stone Tape Theory",
-    "aliases": [],
+    "aliases": [
+      { "name": "Residual haunting hypothesis", "meaning": "Modern parapsychological term for the same idea" },
+      { "name": "Place memory", "meaning": "T. C. Lethbridge's term for emotional energy stored in the landscape" }
+    ],
     "category": "ANOMALY",
-    "subcategory": "Unknown",
+    "subcategory": "Parapsychological hypothesis of recorded haunting",
     "tags": [
-      "folklore",
-      "mythology"
+      "parapsychology",
+      "haunting",
+      "residual",
+      "stone-tape",
+      "pseudoscience",
+      "psychometry"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Stone Tape Theory is a paranormal hypothesis suggesting that buildings and other physical materials can absorb and store energy from traumatic or emotionally charged events, later \\\"replaying\\\" these recordings as ghosts or hauntings.",
-      "full": "The Stone Tape Theory is a paranormal hypothesis suggesting that buildings and other physical materials can absorb and store energy from traumatic or emotionally charged events, later \\\"replaying\\\" these recordings as ghosts or hauntings. Named after Nigel Kneale's 1972 BBC television play *The Stone Tape*, the concept predates the term itself, appearing in earlier spiritualist and theosophical literature. The theory proposes that certain materials—particularly those with crystalline structures like stone, brick, and quartz—may act as natural recording media, similar to magnetic tape, capturing impressions of past events that can be triggered under specific conditions. While scientifically unsupported, the theory remains popular in paranormal investigation circles as an explanation for residual hauntings."
+      "summary": "A pseudoscientific hypothesis that strong emotional or traumatic events are 'recorded' onto the surrounding stone, masonry, or other materials of a location, and replayed under suitable conditions as a haunting. Popularised by Nigel Kneale's 1972 BBC television play The Stone Tape; the underlying idea has older roots in 19th- and 20th-century parapsychology.",
+      "full": "The 'Stone Tape theory' is a parapsychological hypothesis that buildings, especially old stone buildings, can store imprints of intense emotional or traumatic past events much as a magnetic tape stores audio, and that under suitable conditions sensitive observers can perceive these recordings as visual, auditory, or affective hauntings. The name and modern popular form are owed to Nigel Kneale's BBC play The Stone Tape, broadcast on 25 December 1972, in which a research team investigates a haunted Victorian mansion as an apparent recording medium. Kneale's framing drew on older ideas: Charles Babbage's 1837 speculation that sound permanently impresses itself on the air; Edmund Gurney and Eleanor Sidgwick's 19th-century Society for Psychical Research speculations; H. H. Price's 1940s 'psychic ether' hypothesis; and especially T. C. Lethbridge's 1961 book Ghost and Ghoul, which proposed that emotional energy is stored in the local energy field of natural features. The 'Stone Tape' label is now applied across paranormal media to so-called residual hauntings, in which an apparition repeats the same actions in the same location regardless of observers. Mainstream scientists reject the theory as having no plausible physical mechanism; the geologist and skeptic Sharon Hill has argued that the term itself misleadingly suggests scientific credibility for a speculation lacking any physical basis."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by Nigel Kneale for his 1972 BBC television play The Stone Tape; the play's hypothesis was rapidly adopted by paranormal writers as the 'Stone Tape theory'.",
+      "meaning": "Analogy between the storage of past events in stone or masonry and the magnetic storage of audio on a recording tape.",
+      "first_use": "1972 (Kneale, The Stone Tape, BBC)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ANOMALY",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Parapsychological hypothesis",
+      "subtype": "Residual haunting hypothesis"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ghost-haunting", "name": "Ghost / haunting", "relationship": "superset", "description": "Apparition phenomena generally, of which Stone Tape is one proposed sub-explanation" },
+      { "id": "psychometry", "name": "Psychometry", "relationship": "related", "description": "19th-century parapsychological claim that objects retain knowledge of their history" },
+      { "id": "place-memory", "name": "Place memory", "relationship": "similar", "description": "T. C. Lethbridge's concept of emotional energy fields stored at landscape features" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Repetitive apparition", "description": "An apparition that performs the same actions in the same place each time it is observed", "frequency": "always" },
+        { "feature": "Lack of interaction", "description": "The apparition does not respond to or acknowledge living observers", "frequency": "always" },
+        { "feature": "Association with old or stone-built structures", "description": "Reports concentrate around old buildings, especially castles, churches, and other stone-built sites", "frequency": "common" },
+        { "feature": "Triggering conditions", "description": "Some accounts associate stronger appearances with weather, anniversary dates, or magnetic conditions", "frequency": "occasional" }
+      ]
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": [
+        "old stone buildings",
+        "castles and historic houses",
+        "battlefields and other sites of trauma",
+        "churches and crypts"
+      ],
+      "patterns": [
+        "Apparitions repeat fixed sequences of action",
+        "No awareness of living observers",
+        "Often attached to a specific small area (a stair, a corridor, a single room)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "As an interpretive framework rather than a localised phenomenon, the theory is invoked worldwide. Its strongest cultural footprint is in the United Kingdom, where it originated, and in English-language paranormal media generally.",
+      "continents": ["Europe", "North America", "Oceania"],
+      "countries": ["United Kingdom", "Ireland", "United States", "Canada", "Australia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1972-12-25",
+        "circa": false,
+        "source": "Nigel Kneale, The Stone Tape, BBC2 broadcast"
+      },
+      "peak_activity_periods": [
+        { "period": "1970s–1990s", "description": "Theory adopted by paranormal investigators and television documentaries as a stock 'residual haunting' explanation" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late 19th-century Spiritualism and the early Society for Psychical Research; mid-20th-century parapsychological speculation about 'psychic ether' and 'place memory'; the 1972 Kneale play that named and popularised the modern hypothesis.",
+      "earliest_accounts": "Babbage (1837) on permanence of sound vibrations; Gurney and Sidgwick (1880s SPR) on environmental memory; H. H. Price (~1940) on psychic ether; T. C. Lethbridge (1961) on energy fields around natural features.",
+      "folklore_connections": "Provides a modern naturalistic-sounding framing for the older folkloric notion of houses or sites that 'remember' a tragedy."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1837", "event": "Charles Babbage, in The Ninth Bridgewater Treatise, argues that spoken words leave permanent impressions on air molecules, theoretically retrievable", "significance": "Cited later as a prototype for stone-tape thinking", "source": "Babbage, C. (1837)" },
+      { "date": "1882", "event": "Edmund Gurney and Eleanor Sidgwick of the Society for Psychical Research begin discussing the possibility that environments retain impressions of past events", "source": "Proceedings of the SPR" },
+      { "date": "1940", "event": "H. H. Price, in his SPR presidential address, proposes 'psychic ether' as a medium that could store emotional impressions and replay them to sensitive observers", "source": "Price, H. H., Proc. SPR (1939–40)" },
+      { "date": "1961", "event": "T. C. Lethbridge publishes Ghost and Ghoul, arguing that energy fields around natural features store emotional events", "significance": "Direct intellectual precursor of the Stone Tape hypothesis", "source": "Lethbridge, T.C. (1961)" },
+      { "date": "1972-12-25", "event": "BBC2 broadcasts Nigel Kneale's television play The Stone Tape", "significance": "Names and popularises the modern Stone Tape hypothesis", "source": "Kneale, N., The Stone Tape, BBC2" }
+    ],
+    "modern_era": "The Stone Tape theory has become the default English-language paranormal explanation for non-interactive 'residual hauntings'. It is widely cited in popular paranormal television but rejected by the mainstream scientific community on the grounds that no physical mechanism has been proposed by which stone or masonry could store, let alone replay, complex spatio-temporal information."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +132,113 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "stonetape-evidence-kneale-1972",
+        "type": "television play",
+        "name": "The Stone Tape (1972)",
+        "date": "1972-12-25",
+        "description": "Nigel Kneale's 90-minute BBC2 play, in which an electronics company's research team investigates a haunting as an apparent recording embedded in stone.",
+        "status": "verified",
+        "source": "BBC2 broadcast (1972)"
+      },
+      {
+        "id": "stonetape-evidence-lethbridge-1961",
+        "type": "book",
+        "name": "Lethbridge, Ghost and Ghoul (1961)",
+        "date": "1961",
+        "description": "Argues that natural features carry energy fields capable of storing emotional events.",
+        "status": "verified",
+        "source": "Lethbridge, T.C. (1961), Ghost and Ghoul, Routledge & Kegan Paul"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Residual recording in stone or matter",
+        "description": "Strong emotional events imprint onto the surrounding stone, masonry, or other materials and replay automatically under triggering conditions, perceived by sensitive observers as a haunting.",
+        "proponents": ["Nigel Kneale (dramatist)", "T. C. Lethbridge", "Various paranormal investigators"],
+        "evidence_cited": ["Repetitive non-interactive apparitions", "Concentration of reports in old or stone-built buildings", "Subjective reports of sensitivity to specific locations"]
+      },
+      {
+        "name": "Psychic ether",
+        "description": "An ether-like medium permeates space and stores emotional impressions, retrievable by sensitive observers.",
+        "proponents": ["H. H. Price"],
+        "evidence_cited": ["Anecdotal accounts of place memory", "Continuity with earlier psychometric claims"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "No physical mechanism",
+        "description": "No known property of stone, brick, or any other building material allows it to store complex spatio-temporal scenes of past events, let alone replay them; the analogy to magnetic tape is purely rhetorical.",
+        "proponents": ["Sharon Hill", "Theodore Schick", "Lewis Vaughn", "Benjamin Radford"],
+        "evidence_cited": ["Absence of any physical recording mechanism", "Failure of controlled experiments to detect storage of information by haunted-site materials", "Misleading nature of the 'tape' analogy"]
+      },
+      {
+        "name": "Pareidolia, expectation, and cultural transmission",
+        "description": "Reports of residual hauntings are best explained by perceptual pareidolia, prior knowledge of a site's reputation, suggestion, and the cultural transmission of ghost narratives.",
+        "proponents": ["Richard Wiseman", "Christopher French"],
+        "evidence_cited": ["Wiseman's experimental studies of haunted-location reports (Hampton Court, Edinburgh Vaults)", "Demonstrated influence of suggestion on apparition reports"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
+      "traditions": [
+        "British and Irish ghost-lore in which houses 'remember' tragedies",
+        "Anglo-American 'residual haunting' tradition in paranormal television"
+      ],
       "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "beliefs": "Common in popular paranormal culture: traumatic events leave imprints on the buildings or land where they occurred, perceptible to sensitive people."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Ghost and Ghoul — T. C. Lethbridge (1961)",
+        "Ghost: A Cultural History — Susan Owens (2017)",
+        "Ghost Hunters: William James and the Search for Scientific Proof of Life After Death — Deborah Blum (2006)"
+      ],
+      "film_tv": [
+        "The Stone Tape — Nigel Kneale, BBC2 (1972)",
+        "The Stone Tape (2015 BBC Radio 4 audio remake by Matthew Graham and Peter Strickland)",
+        "Most Haunted (Living TV / Really, 2002–) — frequent invocation of Stone Tape language",
+        "Various Ghost Adventures and Ghost Hunters episodes (2000s–2020s) using the theory"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Routinely cited in paranormal-investigation training materials"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "T. C. Lethbridge", "affiliation": "Independent (formerly Cambridge University Museum of Archaeology and Anthropology)", "contribution": "Foundational popular treatment of place memory / energy-field storage of events in Ghost and Ghoul (1961)", "period": "1950s–1971" },
+      { "name": "H. H. Price", "affiliation": "University of Oxford (philosophy)", "contribution": "Psychic-ether hypothesis as a precursor to Stone Tape thinking", "period": "1930s–1940s" },
+      { "name": "Nigel Kneale", "affiliation": "BBC (dramatist)", "contribution": "Author of the 1972 play that crystallised the modern Stone Tape concept", "period": "1972" },
+      { "name": "Sharon Hill", "affiliation": "Doubtful News / independent geologist", "contribution": "Skeptical analysis of the Stone Tape theory and its rhetorical use of geological language", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "Society for Psychical Research", "url": "https://www.spr.ac.uk", "focus": "Research into apparitions, hauntings, and related phenomena" }
+    ],
+    "ongoing_studies": "No active mainstream scientific research treats the Stone Tape theory as testable; the topic is studied chiefly within parapsychology and the cultural history of haunting."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-stonetape", "type": "website", "title": "The Stone Tape", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Stone_Tape", "accessed": "2026-05-07" },
+    { "id": "kneale-1972", "type": "documentary", "title": "The Stone Tape", "authors": ["Nigel Kneale"], "publication": "BBC2", "date": "1972-12-25" },
+    { "id": "lethbridge-1961", "type": "book", "title": "Ghost and Ghoul", "authors": ["T. C. Lethbridge"], "publication": "Routledge & Kegan Paul", "date": "1961" },
+    { "id": "babbage-1837", "type": "book", "title": "The Ninth Bridgewater Treatise: A Fragment", "authors": ["Charles Babbage"], "publication": "John Murray", "date": "1837" },
+    { "id": "wiseman-2002", "type": "paper", "title": "An Investigation into Alleged Hauntings", "authors": ["Richard Wiseman", "Caroline Watt", "Paul Stevens", "Emma Greening", "Ciaran O'Keeffe"], "publication": "British Journal of Psychology", "date": "2003", "doi": "10.1348/000712603762842165" }
+  ]
 }
